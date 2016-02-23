@@ -1,0 +1,7 @@
+#bannerBox{ background-color:#e84141; }
+
+.banner-tt{ top:-66px;}
+.banner-tt .tt{ width:140px; height:40px; margin:0 auto;}
+.banner-tt .tt h3{ top:10px; font-size:16px; color:#ffea00; font-weight:normal; }
+
+.bannerSection{ height:385px; margin:0 25px; }

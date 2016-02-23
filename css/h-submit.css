@@ -1,0 +1,36 @@
+.submitSection{margin:0 0 37px 0; overflow:hidden;}
+.submitSection p{ display:block; top:72px;  width:64px; height:64px; background: url(../img/sucess.png) no-repeat;  overflow: hidden; }
+
+.submitSection span{ display:block; top:143px; font-size:13px; color:#fff; }
+.sumbitBox{ margin:20px auto 0; max-width: 600px; overflow:hidden;}
+.sumbitBox h4{ font-size: 14px; color: #222; margin: 0 5% 20px; text-align: center; line-height: 30px; }
+.sumbitBox ul{ margin:0 5%; overflow: hidden; }
+.sumbitBox li{ height:44px;  border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; margin-bottom:20px;}
+.sumbitBox li:last-child{ margin-bottom: 25px; }
+.sumbitBox li span,.sumbitBox li span a{ display:block; height:44px;  line-height: 44px;  text-align: center; cursor: pointer;}
+.sumbitBox li span:hover{ text-decoration: none; cursor: pointer; }
+.sumbitBox li.sumLink1{ background-color: white; border: 1px solid #08d1bc;}
+.sumbitBox li.sumLink1 span a{ color:#08d1bc; font-size: 16px; }
+.sumbitBox li.sumLink2{ background-color: #08d1bc; border: 2px solid #08d1bc;}
+.sumbitBox li.sumLink2 span a{ color:#fff; font-size: 16px; }
+.sumbitBox li.sumLink1 span a:hover, .sumbitBox li.sumLink2 span a:hover,.sumbitBox li.sumLink2 span a:active{ text-decoration:none; cursor:pointer;}
+.sumbitBox li.sumLink2:hover{ background-color:#07bfac; border: 2px solid #07bfac; }
+.sumbitBox p{ width:90%; height:auto; clear:both; margin:0 auto; line-height: 25px; text-align: center; font-size: 12px; color:#676869; }
+/*更多点击后触发的弹层 start*/
+.modal-content{ background-color: black; opacity: 0.85; -webkit-opacity: 0.85; -moz-opacity: 0.85; filter:alpha(opacity=85);  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";   filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=85);}
+.modal-header{ height:58px; padding:0; }
+.modal-header .close{ margin:0; }
+.modal-body{ padding:0; }
+.modal-body .hr-body{ position: relative; width:100%; margin:0 auto; }
+.modal-body .hr-body a{ position: relative; display:block; text-align:center; margin:0 auto; color:#fff; font-size: 44px; cursor: pointer;}
+.modal-body .hr-body a:focus{ outline: none; text-decoration: none; }
+.modal-body .hr-body a s{ display:block; position: absolute; bottom:0; width:100%; height:1px; background-color: white; }
+.modal-body .hr-body a span{ display:block;}
+/*更多点击后触发的弹层 end*/
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    .submitSection p{
+        background: url(../img/2x/sucess@2x.png) no-repeat;
+        background-size: 100%;
+    }
+
+}

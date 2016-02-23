@@ -1,0 +1,130 @@
+.ds-none{ display: none; }
+
+
+.expertSection h1{ top:34px; }
+.expertSection h1 span{ display: inline-block; font-size: 18px; color:#fff; font-family: "Noto Sans S Chinese";}
+.expertSection p{ top:95px; width:90%; }
+.expertSection p b{ display: block; margin:0 auto; color:white; font-weight: normal; font-size: 12px; font-family:"Microsoft YaHei"; opacity: 0.9; -webkit-opacity: 0.9; -moz-opacity: 0.9; filter:alpha(opacity=90);  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";   filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=90); }
+.expertSection i{ display: block; width: 108px; height: 1px; top:82px;  opacity: 0.7; -webkit-opacity: 0.7; -moz-opacity: 0.7; filter:alpha(opacity=70);  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";   filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=70); font-style: normal; }
+.expertSection h1 span.c_white{ color:white; }
+.expertSection i.c_white{ background-color: white;}
+#expertBox .bd{ display: block; width: 100%; height: 20rem; background: url(../img/12.png); overflow: hidden; }
+
+/*@media screen*/
+/*#expertBox{ background-color: #f3f3f6;}*/
+.expertForm{ width: 100%;  }
+.expertForm .inBox{ background-color:#f3f3f6; overflow:hidden }
+.expertForm .in{ clear:both; margin: 13px auto 0; background-color: white; }
+.expertForm .in p{ margin: 14px auto 0; text-align: center; }
+.expertForm .in p a{ display: inline-block; width: 91px; height: 24px; line-height:24px; margin-right: 9px; text-align: center; color:#c0c5ca; font-size: 14px;  border: 1px solid #c0c5ca;  border-radius: 45px; -webkit-border-radius: 45px; -moz-border-radius: 45px; cursor: pointer; }
+.expertForm .in p a:last-child{ margin-right: 0; }
+.expertForm .in p a:active{ border: 1px solid #ff5555;  color:#ff5353;  }
+.expertForm .in p a:focus{ outline:none; text-decoration:none; }
+.expertForm .in textarea{ margin: 15px 3% 10px 3%; width: 94%; height:150px; max-width:464px; max-height:150px; padding: 10px;  color:#c0c5ca; font-size: 14px;  border: 1px solid #c0c5ca;  border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px;  overflow: hidden; }
+.expertForm .e-form-l{ border-top:1px solid #f3f3f6; }
+.expertForm .e-formBtn{ display: block; margin: 5% auto; width: 100%; height: 34px; line-height: 34px; text-align: center; background-color:#c0c5ca; color:#fff; font-size: 16px; border-style:none; cursor: pointer; }
+.expertForm .e-formBtn.active{ background-color:#ff5555; }
+.e-formItem{ border-bottom: 1px solid #f0f0f0; overflow: hidden; }
+.e-formItem i{ display:inline-block; margin-top:.8rem; font-style: normal; width: 20px; font-size: 16px; color:#ff5555; font-family: Arial; overflow: hidden; }
+.e-formItem b{ width:74px; color:#676869; font-weight: normal; }
+.e-formItem input{ width: 100%;  color:#c0c5ca; }
+.e-formItem b{ display:inline-block; float:left; height: 39px; line-height: 39px; text-indent: 1em; font-size: 14px; border:none; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px;}
+.e-formItem input{ display:inline-block; float:left; height: 44px; line-height: 44px; text-indent: 1em; font-size: 14px; border:none; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; }
+
+
+.upPic{ width: 128px; height: 128px; margin-bottom: 10px; overflow: hidden; }
+.upPic img{ display: block; max-width: 128px; max-height: 128px; overflow: hidden; }
+.upPicBtn{ width: 128px; height: 36px; line-height: 36px; text-align: center; color:white; background-color: #08d1bc; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; }
+.picDemo{ display: block; margin-top: 10px; width: 128px; height: 36px; line-height: 36px; text-align: center; color:#08d1bc; border: 1px solid #08d1bc; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px;}
+/*自定义select*/
+.btn-select {
+	position: relative;
+	display: inline-block;
+	width: 95%;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	font-size: 14px;
+	color: #c0c5ca;
+    margin: 10px;
+}
+
+.e-formItem select{ width: 100%; height:34px; text-align: left; border-radius: 3px; color:#c0c5ca; background-color: white; border:none; }
+.e-formItem option{display:block;padding:0 20px; height:34px; clear:both;font-weight:400;line-height:34px;color:#222; font-size: 14px; border-bottom:1px solid #f0f0f0; font-family: Arial; white-space:nowrap}
+.e-formItem option:last-child{border-bottom:none;}
+.e-formItem option:focus,.e-formItem option:hover{color:#fff;text-decoration:none;background-color:#08d1bc}
+
+/*.e-formItem .btn{ width: 100%; text-align: left; border-radius: 3px; color:#c0c5ca; background-color: white;}
+.btn.focus, .btn:focus, .btn:hover{ color:#c0c5ca; text-decoration: none; }
+.caret{
+    float: right;
+    margin-top: 7px;
+    border-top: 4px dashed #c0c5ca;
+    border-top: 4px solid\9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.dropdown-menu {
+    width: 100%;
+    position: absolute;
+    top: 104%;
+    left: 0;
+    right:0;
+    margin:auto;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding:0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.dropdown-menu>li>a{display:block;padding:0 20px; height:34px; clear:both;font-weight:400;line-height:34px;color:#222; font-size: 14px; border-bottom:1px solid #f0f0f0; font-family: Arial; white-space:nowrap}
+.dropdown-menu>li>a:last-child{border-bottom:none;}
+.dropdown-menu>li>a:focus,.dropdown-menu>li>a:hover{color:#fff;text-decoration:none;background-color:#08d1bc}*/
+
+
+/*自定义select end*/
+/*弹层样式*/
+.modal-body{ position: relative; font-size: 18px; color:#222; padding:20px; }
+.modal-body strong{ display: block; padding: 30px 10px 25px 10px; overflow: hidden; font-size: 16px; font-weight:normal; }
+.modal-body p{ display: block; padding: 0 15px 15px; margin:0; overflow: hidden; font-size: 14px; color:#222; }
+/*弹层尾部样式*/
+.carousel-inner>.item{ height:397px; overflow-x:hidden; }
+.carousel-control.fl{ background-color: #08d1bc; left:0; width:33%; overflow:hidden; }
+.carousel-control.fr{ background-color: #08d1bc; right:0; width:33%;overflow:hidden; }
+.carousel-control.fl:hover,.carousel-control.fr:hover{ background-color: #07bfac; }
+.xeBtn{ position:absolute; left:33%; width:33%;height:44px;line-height:44px; text-align:center; font-size:16px;color:#fff; background-color:#08d1bc; font-weight: normal; overflow:hidden; }
+.xeBtn:hover,.xeBtn:active{ background-color: #07bfac; color:#fff;text-decoration:none;filter:alpha(opacity=90);outline:0;opacity:.9 }
+#ModalBox1 .modal-footer,#ModalBox2 .modal-footer,#ModalBox3 .modal-footer,#ModalBox4 .modal-footer,#ModalBox5 .modal-footer,#ModalBox6 .modal-footer{ position:relative; bottom:0; left:0; right:0; margin:auto; background-color: #08d1bc;}
+/*更多点击后触发的弹层 start*/
+.modal-content{ border:none; }
+.modal-header{ position: relative; height:39px; padding:0; }
+.modal-header .close{ margin:0; }
+#ModalBox1 .modal-title,#ModalBox2 .modal-title,#ModalBox3 .modal-title,#ModalBox4 .modal-title,#ModalBox5 .modal-title,#ModalBox6 .modal-title{ font-size: 14px; position: absolute; top: 9px; left: 15px; color:#676869;}
+.modal-open .modal{ background-color:white;}
+.modal.in .modal-dialog{ background-color:white;}
+.modal-body{ padding:0; }
+.modal-body .hr-body{ position: relative; width:100%; margin:0 auto; }
+.modal-body .hr-body a{ position: relative; display:block; text-align:center; margin:0 auto; color:#fff; font-size: 44px; cursor: pointer;}
+.modal-body .hr-body a:focus{ outline: none; text-decoration: none; }
+.modal-body .hr-body a s{ display:block; position: absolute; bottom:0; width:100%; height:1px; background-color: white; }
+.modal-body .hr-body a span{ display:block;}
+/*更多点击后触发的弹层 end*/
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    #expertBox .bd{
+        background: url(../img/2x/12@2x.png) no-repeat;
+        background-size: 100%;
+    }
+}
